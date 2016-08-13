@@ -18,7 +18,6 @@ namespace RiddleCake.Theory
     {
         private int clef;
         private char key;
-        private Note[][] scale; 
         //integer representation of each type of scale
         //use offsets to determine octave if threaded mp3 octaves, or integer offesets for literal frequency
         //the key signature is determined per measure, so at the beginning of each measure, all of the scales 
@@ -33,18 +32,12 @@ namespace RiddleCake.Theory
             {
                 //system could instead be based on the number of steps for major and minor chords
                 //but the scale would still be determined at that point
-                case 'A': GetScale('A');  break; 
+                case 'A':  break; 
                 case 'a': break;
                 case 'B': break;
-                case 'b': GetScale('b');  break;
+                case 'b':   break;
                 default: break; 
             }
-        }
-
-        private Note[][] GetScale(char k)
-        {
-           
-            return new Note[5][6];
         }
     }
     class TimeSignature
@@ -63,17 +56,11 @@ namespace RiddleCake.Theory
     }
     class Measure
     {
-        public Measure(TimeSignature t, KeySignature k, Note[] n)
-        {
-
-        }
+    
     }
     class Score
     {
-        public Score(Measure[] m)
-        {
-            
-        }
+ 
     }
 
 }
