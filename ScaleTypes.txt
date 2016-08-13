@@ -1,0 +1,33 @@
+acoustic 
+aeolian mode/natural minor 
+blues 
+chromatic 
+dorian 
+enigmatic 
+flamenco 
+gypsy 
+half diminished 
+harmonic major 
+harmonic minor 
+hirajoshi 
+hungarian minor 
+in scale 
+insen scale 
+ionian mode/major scale 
+iwato 
+lydian augmented 
+lydian 
+major bebop 
+major pentatonic 
+minor pentatonic 
+myxolydian mode 
+neapolitan major 
+neapolitan minor 
+persian 
+phrygian mode
+prometheous 
+tritone 
+ukrainian dorian
+yo
+
+https://en.wikipedia.org/wiki/List_of_musical_scales_and_modes
